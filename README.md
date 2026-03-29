@@ -50,44 +50,50 @@ Reads a log file, counts how many times a keyword (default: error) appears, and 
 Takes what the user types in and makes a unique open source philosophy statement that is saved to a text file.
 
 ---
-
 ## How to Run the Scripts
 
-### Step 1: Give Execution Permission
+Follow these steps on a Linux system:
+
+### Step 1: Clone the Repository
 
 ```bash
-chmod +x script1_system_identity.sh
-chmod +x script2_package_inspector.sh
-chmod +x script3_disk_auditor.sh
-chmod +x script4_log_analyzer.sh
-chmod +x script5_manifest_generator.sh
+git clone https://github.com/JitishxD/oss-audit-24mei10020
+cd oss-audit-24MEI10020
 ```
 
-### Step 2: Execute Scripts
-Script 1
+### Step 2: Give Execution Permission
+
+```bash
+chmod +x *.sh
+```
+
+### Step 3: Run Each Script
+
+Script 1:
 ```bash
 ./script1_system_identity.sh
 ```
 
-Script 2
+Script 2:
 ```bash
 ./script2_package_inspector.sh
 ```
 
-Script 3
+Script 3:
 ```bash
 ./script3_disk_auditor.sh
 ```
 
-Script 4
+Script 4:
 ```bash
 ./script4_log_analyzer.sh test.log error
 ```
 
-Script 5
+Script 5:
 ```bash
 ./script5_manifest_generator.sh
 ```
+
 ### Requirements
 > * Linux system (Debian/Ubuntu recommended)
 > * Bash shell
